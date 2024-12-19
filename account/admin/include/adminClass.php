@@ -22,12 +22,12 @@ class message
         // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         //SMTP Settings (use default cpanel email account)
         $mail->isSMTP();
-        $mail->Host = "server172.web-hosting.com"; //
+        $mail->Host = "server64.web-hosting.com"; //
         $mail->SMTPAuth = true;
         $mail->Username = "support@regionsavings.online"; // Default cpanel email account
-        $mail->Password = 'Snipper007.'; // Default cpanel email password
+        $mail->Password = 'regionSecret666.'; // Default cpanel email password
         $mail->Port = 587; // 587 or 465
-        $mail->SMTPSecure = "tls"; // tls
+        $mail->SMTPSecure = "tls"; // tls or ssl
 
         //Email Settings
         $mail->isHTML(true);
